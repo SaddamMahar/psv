@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PSV Information Management System</string>
+    <string name="title_activity_driver_entry_form">Driver\'s Data Entry</string>
+    <string name="title_activity_vehicle_entry_form">Vehicle Entry Form</string>
+</resources>

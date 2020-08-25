@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComprehensiveReportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorNhmpBlue"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/textViewVehicleDetailsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Details"
+                android:textSize="24dp"
+                android:elevation="5dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/bg_white_round_corner_top"
+                android:textColor="@color/colorNhmpBlue"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewVehicleDetailsTitle"
+                android:background="@drawable/bg_white_round_corner_bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Vehicle Reg No"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/vehicle_reg_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Vehicle Make"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/vehicle_make"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Vehicle Model"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/vehicle_model"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Vehicle Color"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/vehicle_color"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Vehicle Type"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/vehicle_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Seating Capacity"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/seating_capacity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Chassis No"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/chassis_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Engine No"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/engine_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="Route Cities"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/route_cities"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="SPO Nadeem Akhter"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Route Expiry"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/route_expiry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Fitness Expiry"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/fitness_expiry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Next Tyre Check Date"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/next_tyre_check_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Fire Extinguisher Expiry"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/fire_extinguisher_expiry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Transport Company"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/transport_company"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/textViewDriverDetailsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driver Details"
+                android:textSize="24dp"
+                android:elevation="5dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/bg_white_round_corner_top"
+                android:textColor="@color/colorNhmpBlue"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewDriverDetailsTitle"
+                android:background="@drawable/bg_white_round_corner_bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Name"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Cnic No"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_cnic_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="Contact No"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_contact_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="SPO Nadeem Akhter"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:text="Address"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="SPO Nadeem Akhter"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="License No"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_license_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="License Type"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_license_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="License Expiry Date"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_license_expiry_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Licence Issuing Authority"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_licence_issuing_authority"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="License Verification"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/driver_license_verification"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Checked By"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/checked_by"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Dated"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/checked_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:text="Time"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/checked_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="8dp"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="28/12/2019 1405"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/textViewInspectionDetailsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Validity (Autogenerated)"
+                android:elevation="5dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/bg_white_round_corner_top"
+                android:textColor="@color/colorNhmpBlue"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInspectionDetailsTitle"
+                android:background="@drawable/bg_white_round_corner_bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Tyre Condition"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/tyre_condition"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Headlights"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/headlights"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Backlights"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/backlights"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Hazard Lights"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/hazard_lights"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Fog Lights"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/fog_lights"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Emergency Lights"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/emergency_lights"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Front Screen Wiper"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/front_screen_wiper"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Side Mirror"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/side_mirror"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Road Safety Cones"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/road_safety_cones"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="First-aid Box"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/first_aid_box"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Zero Seat"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/zero_seat"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Tracker"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/tracker"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Movie Recorded"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/movie_recorded"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="No Plates As Per Pattern"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/no_plates_as_per_pattern"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="70"
+                            android:textColor="@android:color/black"
+                            android:text="Insurence Certificate"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/insurence_certificate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:textColor="@color/colorNhmpBlue"
+                            android:text="Working"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,7 +13,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn_driver_entry_form, btn_vehicle_entry_form, btn_vehicle_inspection, btn_search, btn_vehicle_search;
+    Button btn_driver_entry_form, btn_vehicle_entry_form, btn_vehicle_search;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         btn_driver_entry_form = (Button) findViewById(R.id.btn_driver_entry_form);
         btn_vehicle_entry_form = (Button) findViewById(R.id.btn_vehicle_entry_form);
-        btn_vehicle_inspection = (Button) findViewById(R.id.btn_vehicle_inspection);
-        btn_search = (Button) findViewById(R.id.btn_search);
         btn_vehicle_search = (Button) findViewById(R.id.btn_vehicle_search);
 
         btn_vehicle_search.setOnClickListener(new View.OnClickListener() {
@@ -46,11 +44,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn_vehicle_inspection.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                openVehicleInspectionActivity();
-            }
-        });
     }
 
     public void openVehicleSearchActivity() {
@@ -66,11 +59,6 @@ public class MainActivity extends AppCompatActivity {
     public void openVehicleEntryFormActivity() {
         Intent intentVehicleEntryForm = new Intent(this, VehicleEntryFormActivity.class);
         startActivity(intentVehicleEntryForm);
-    }
-
-    public void openVehicleInspectionActivity() {
-        Intent intentVehicleInspection = new Intent(this, VehicleInspectionActivity.class);
-        startActivity(intentVehicleInspection);
     }
 
     public class OkHttpHandler extends AsyncTask {

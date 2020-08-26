@@ -16,9 +16,6 @@
         <activity android:name=".VehicleSearchActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SeclectDriverVehicleActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".VehicleInspectionActivity"
             android:screenOrientation="landscape" />
         <activity

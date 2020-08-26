@@ -16,12 +16,12 @@
         android:padding="16dp">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_input_veh_no"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text_input_veh_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Vehicle No"
@@ -34,12 +34,12 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_input_driver_no"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text_input_driver_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Driver CNIC/License No"
@@ -82,7 +82,7 @@
             android:layout_marginBottom="10dp"/>
 
         <Button
-            android:id="@+id/btn_submit_driver_data"
+            android:id="@+id/btn_submit_search_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

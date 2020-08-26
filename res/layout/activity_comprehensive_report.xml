@@ -23,7 +23,7 @@
             android:layout_marginBottom="6dp">
 
             <TextView
-                android:id="@+id/textViewVehicleDetailsTitle"
+                android:id="@+id/textViewSelectVehicle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Vehicle Details"
@@ -37,7 +37,7 @@
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@id/textViewVehicleDetailsTitle"
+                android:layout_below="@id/textViewSelectVehicle"
                 android:background="@drawable/bg_white_round_corner_bottom">
 
                 <LinearLayout

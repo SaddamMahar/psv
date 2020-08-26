@@ -7,24 +7,56 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/btn_driver_entry_form"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Driver Entry" />
+        android:orientation="vertical"
+        android:padding="8dp">
 
-    <Button
-        android:id="@+id/btn_vehicle_entry_form"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_driver_entry_form"
-        android:text="Vehicle Entry" />
+        <Button
+            android:id="@+id/btn_driver_entry_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver Entry" />
 
-    <Button
-        android:id="@+id/btn_vehicle_inspection"
-        android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btn_vehicle_entry_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/btn_driver_entry_form"
+            android:text="Vehicle Entry" />
+
+        <Button
+            android:id="@+id/btn_vehicle_inspection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_vehicle_entry_form"
+            android:text="Vehicle Inspection" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_vehicle_inspection"
+            android:text="Show listing" />
+
+        <Button
+            android:id="@+id/btn_vehicle_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_search"
+            android:text="Search Vehicle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_vehicle_entry_form"
-        android:text="Vehicle Inspection" />
+        android:orientation="vertical"
+        android:padding="0dp">
+
+
+    </LinearLayout>
+
+    </LinearLayout>
 
 </android.widget.RelativeLayout>

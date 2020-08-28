@@ -8,8 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.os.AsyncTask;
 
+import java.io.File;
+
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
@@ -79,6 +83,28 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println(e.getMessage());
                 e.printStackTrace();
             }
+
+//            try {
+//                //setting media type
+//                final MediaType MEDIA_TYPE_PNG = MediaType.parse("image/png");
+//
+//                //Get file from parameters like :File f = (File) objects[0];
+//                //or just pass file path and create file here like:
+//                //File f = new File(objects[0].toString());
+//                RequestBody body = RequestBody.create(MEDIA_TYPE_PNG, new File(objects[1].toString()));
+//                Request request = new Request.Builder()
+//                        .url(objects[0].toString())
+//                        .post(body)
+//                        .build();
+//
+//                Response response = client.newCall(request).execute();
+//                String r = response.body().string();
+//                return r;
+//
+//            }catch (Exception e){
+//                System.out.println(e.getMessage());
+//                e.printStackTrace();
+//            }
             return null;
         }
     }
